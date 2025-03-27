@@ -1,4 +1,4 @@
 package com.pm.inventoryservice.dto;
 
-public record InventoryRequestDto() {
+public record InventoryRequestDto( String skuCode, Integer quantity) {
 }

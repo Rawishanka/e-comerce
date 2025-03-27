@@ -1,4 +1,11 @@
 package com.pm.orderservice.dto;
 
-public class OrderRequestDto {
+
+import java.math.BigDecimal;
+
+public record OrderRequestDto(
+                              String orderNumber,
+                              String skuCode,
+                              BigDecimal price,
+                              Integer quantity) {
 }
