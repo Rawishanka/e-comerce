@@ -1,0 +1,2 @@
+# Ignore MySQL socket file
+api-gateway/volume-data/mysql_keycloak_data/mysql.sock
